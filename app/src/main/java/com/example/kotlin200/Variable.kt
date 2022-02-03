@@ -1,6 +1,7 @@
 package com.example.kotlin200
 
 //변수
+//변수는 사용하기 전에 초기화 하여야 한다.
 //var는 수정할 수 있는 변수
 //val은 수정할 수 없는 변수
 fun main(){
