@@ -6,6 +6,9 @@ package com.example.kotlin200
 fun main(){
     var ch:Char = 'A'
     println(ch)
+    //코틀린코드에서 작은따옴표안에 \u코드를 입력하면 그번호에 해당하는 문자로 치환한다.
+    var a='\uAC01'
+    println(a)
     ch = '\uAC00'
     println(ch)
     ch='한'
