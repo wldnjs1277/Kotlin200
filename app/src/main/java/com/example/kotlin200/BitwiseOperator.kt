@@ -18,7 +18,7 @@ fun main(){
     println(1 xor 3)
     println(12345.inv())
     println(1 shl 3)
-    println(4 shr 1)
+    println(10 shr 4) //시프트 연산자는 값이 허용범위를 넘어가버리면 없는 값이 되어버린다.
     println(-4 ushr 1)
 
 }
