@@ -1,6 +1,6 @@
 package com.example.kotlin200
 
-//조건문 - while
+//반복문 - while
 
 fun main(){
     var i=1
@@ -8,4 +8,10 @@ fun main(){
         println(i)
         i++
     }
+//반복문 do-while
+    var a = 1
+    do{
+        println("실행됨$a")
+        a++
+    }while (a<10)
 }
