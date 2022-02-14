@@ -6,6 +6,7 @@ fun main(){
     //3과5를 인수로 받는 testfun을 출력
     println(testfun(3,5))
     test()
+    test2()
 }
 //리턴타입이 Int이고  타입이 Int인 a,b를 매개변수로 가지는 testfun함수
 fun testfun(a:Int,b:Int):Int{
@@ -21,3 +22,6 @@ fun test(){
     //return 타입이 Unit이면 return 을 생략해도 된다.
     return //을 사용하려면 return 뒤에 표현식을 적지않아야 한다.
 }
+
+//함수에 포함된 문장이 한개이면 = 로 축약 가능하다.
+fun test2()= println("test2")
