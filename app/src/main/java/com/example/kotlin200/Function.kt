@@ -5,10 +5,12 @@ package com.example.kotlin200
 fun main(){
     //3과5를 인수로 받는 testfun을 출력
     println(testfun(3,5))
+    println(testfun(6,7))
     test()
     test2()
 }
 //리턴타입이 Int이고  타입이 Int인 a,b를 매개변수로 가지는 testfun함수
+//함수를 활용하면 중복되는 코드를 줄일 수 있다.
 fun testfun(a:Int,b:Int):Int{
     println("a=$a,b=$b")
     return a+b
