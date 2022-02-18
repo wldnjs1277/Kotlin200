@@ -8,6 +8,11 @@ fun main(){
     println(testfun(6,7))
     test()
     test2()
+    //지역함수란 블록안에 선언된 함수를 뜻한다.
+    fun localfun(a:Int,b:Int){
+        println(a+ b)
+    }
+    localfun(3,4)
 }
 //리턴타입이 Int이고  타입이 Int인 a,b를 매개변수로 가지는 testfun함수
 //함수를 활용하면 중복되는 코드를 줄일 수 있다.
