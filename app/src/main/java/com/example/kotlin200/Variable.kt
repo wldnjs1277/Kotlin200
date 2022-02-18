@@ -15,6 +15,10 @@ fun main(){
 
     val a:Int=10+53-7
     println(a)
+    printA()
+    printA2()
+    //서로 다른 지역변수 a이므로 값이 다르다.
+
     val b:Int=43+75+a
     val c:Int=3
     println(b)
@@ -22,6 +26,8 @@ fun main(){
     println(total)
     println(total+c) // 전역변수 c보다 지역변수 c가 우선적으로 인식됨
     printC()
+
+
 }
 fun printC(){
     println("${c} 전역변수c를 출력")
@@ -40,4 +46,17 @@ fun printC(){
 
 //지역변수와 전역변수 간에는 이름의 중복을 허용하기 때문에 오류가 발생하지 않는다.
 //이름이 중복된 변수에 접근할 때는 실행되고 있는 코드와 가장 가까운 스코프 변수가 인식된다.
+
+//지역변수와 다른 함수의 지역변수가 중복일 때
+//지역변수간에 스코프가 겹치치 않기 때문에 이름만 같고 서로 다른 변수이다.
+
+fun printA(){
+    val a = 5
+    println(a)
+}
+fun printA2(){
+    val a = 7
+    println(a)
+}
+
 
