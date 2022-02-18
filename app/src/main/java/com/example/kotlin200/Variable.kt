@@ -16,10 +16,15 @@ fun main(){
     val a:Int=10+53-7
     println(a)
     val b:Int=43+75+a
+    val c:Int=3
     println(b)
     total=a+b
     println(total)
-    println(total+c)
+    println(total+c) // 전역변수 c보다 지역변수 c가 우선적으로 인식됨
+    printC()
+}
+fun printC(){
+    println("${c} 전역변수c를 출력")
 }
 
 //지역 변수와 전역변수
@@ -30,4 +35,9 @@ fun main(){
 
 //전역변수는 블록빡에서 선언한 변수
 //전역변수는 어떤함수에도 속해 있지 않기 때문에 모든함수에서 사용가능
+
+//지역변수와 전역변수의 이름이 중복될 때
+
+//지역변수와 전역변수 간에는 이름의 중복을 허용하기 때문에 오류가 발생하지 않는다.
+//이름이 중복된 변수에 접근할 때는 실행되고 있는 코드와 가장 가까운 스코프 변수가 인식된다.
 
