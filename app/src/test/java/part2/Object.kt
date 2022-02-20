@@ -1,4 +1,4 @@
-package park2
+package part2
 
 // Object
 //객체는 소프트웨어 관점에서 연관있는 변수들을 묶어놓은 데이터 덩어리
