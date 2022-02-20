@@ -15,6 +15,18 @@ fun main(){
     //result가 스택영역에 생성된다.
     //main함수가 종료되면 스택영역이 전부 사라진다.
 
+    //----------------------------------------
+    //메모리의 힙 역역
+    //객체는 힙 역역에 생성된다.
+    //
+    val person=object { // person변수는 실제 값을 가지지 않고 객체의 좌표를 저장한다
+                        // 이러한 변수를 참조변수라고 한다. 객체의 좌표값은 참조값
+        val name="jiwon"
+        val age=27
+    }
+    println(person.age)
+    println(person.name)
+
 }
 
 fun absolute(number:Int):Int{
@@ -24,3 +36,5 @@ fun absolute(number:Int):Int{
         -number
     }
 }
+
+
