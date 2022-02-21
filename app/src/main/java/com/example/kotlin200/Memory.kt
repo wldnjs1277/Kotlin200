@@ -18,14 +18,12 @@ fun main(){
     //----------------------------------------
     //메모리의 힙 역역
     //객체는 힙 역역에 생성된다.
-    //
-    val person=object { // person변수는 실제 값을 가지지 않고 객체의 좌표를 저장한다
-                        // 이러한 변수를 참조변수라고 한다. 객체의 좌표값은 참조값
-        val name="jiwon"
-        val age=27
-    }
-    println(person.age)
-    println(person.name)
+    // person변수는 실제 값을 가지지 않고 객체의 좌표를 저장한다
+    // 이러한 변수를 참조변수라고 한다. 객체의 좌표값은 참조값
+    //힙 영역에 생성한 변수는 블록을 빠져나와도 지워지지 않는다.
+
+    val person= createPerson()
+    printmyInfo(person)
 
 }
 
@@ -35,6 +33,21 @@ fun absolute(number:Int):Int{
     }else{
         -number
     }
+}
+
+class Person{
+    var name=""
+    var age=0
+}
+fun createPerson():Person{
+    val my = Person()
+    my.name="JIWON"
+    my.age=27
+    return my
+}
+fun printmyInfo(person:Person){
+    println("이름=${person.name}")
+    println("나이=${person.age}")
 }
 
 
