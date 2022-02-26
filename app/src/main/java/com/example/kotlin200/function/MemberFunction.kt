@@ -7,15 +7,18 @@ fun main(){
     person.name="jiwon"
     person.age=27
     printPerson(person)
-    person.print()
+    person.print(17)
 }
 
 class Person{
     var name=""
     var age=0
+    //프로퍼티와 맴버 변수 이름이 같을때
 
-    fun print(){
+
+    fun print(age:Int){
         println("이름"+this.name)
+        println("나이${age}") //변수 이름을 그냥적으면 매개변수로 인식
         println("나이"+this.age)
         //this는 해당위치에서 가장 가까운 범위의 클래스르 가르키는 키워드
     }
