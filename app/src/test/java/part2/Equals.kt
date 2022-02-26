@@ -15,6 +15,7 @@ fun main(){
     b.name="abc"
     println(a.name==b.name)
 }
+
 class abc {
     var name=""
 }
