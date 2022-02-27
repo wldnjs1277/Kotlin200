@@ -4,7 +4,7 @@ package com.example.kotlin200.Class
 
 
 fun main(){
-    val human=Human(name = "name", age = 1)
+    val human=Human(name = "name", age = 1,"LEE")
     println("이름은${human.name}")
     println("나이 ${human.age}")
     val human1=Human()
@@ -14,7 +14,8 @@ fun main(){
 }
 //constructor는 생략가능
 //생성자도 함수의 일종이므로 디폴트 인수와 가변인수를 사용할 수 있다.
-class Human /*constructor*/(name:String="jiwon",age:Int=27){
+//생성자 매개변수는 init블록뿐 아니라 프로퍼티 선언과 동시에 초기화 하는데 사용가능
+class Human /*constructor*/(name:String="jiwon",age:Int=27,firstname:String="Lee"){
     val name:String
     val age:Int
     //init블록안에서 프로퍼티를 초기화 하면 생성과 동시에 하지 않아도 된다.
@@ -24,9 +25,12 @@ class Human /*constructor*/(name:String="jiwon",age:Int=27){
         this.name=name
         this.age=age
     }
+    val fullname:String = firstname+this.name
+
     //init은 여러개 사용가능
     init {
         println("두번째 init")
+        println(fullname)
     }
 }
 
