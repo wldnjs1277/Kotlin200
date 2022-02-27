@@ -10,6 +10,10 @@ fun main(){
     val human1=Human()
     println(human1.name)
     println(human1.age)
+    ///////////////////////////
+    val human2=Human2("jiwon")
+    human2.print()
+
 
 }
 //constructor는 생략가능
@@ -31,6 +35,14 @@ class Human /*constructor*/(name:String="jiwon",age:Int=27,firstname:String="Lee
     init {
         println("두번째 init")
         println(fullname)
+    }
+}
+//생성자와 프로퍼티 한번에 쓰기
+//생성자 매개변수 앞에 val나 var을 사용하면 같은 이름의 프로피터가 같이 선언된다.
+class Human2(val name:String,val age: Int=27){
+    fun print(){
+        println(name)
+        println(age)
     }
 }
 
