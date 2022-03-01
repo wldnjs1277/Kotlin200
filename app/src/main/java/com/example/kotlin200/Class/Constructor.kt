@@ -16,7 +16,7 @@ fun main(){
 
 
 }
-//constructor는 생략가능
+//constructor는 생략가능 //접근 제어자가 private 라면 constructor를 생략할수 없다.
 //생성자도 함수의 일종이므로 디폴트 인수와 가변인수를 사용할 수 있다.
 //생성자 매개변수는 init블록뿐 아니라 프로퍼티 선언과 동시에 초기화 하는데 사용가능
 class Human /*constructor*/(name:String="jiwon",age:Int=27,firstname:String="Lee"){
