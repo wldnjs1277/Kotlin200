@@ -7,7 +7,7 @@ package com.example.kotlin200.operator
 * minus 이면 a-b
 * times = a*b
 * div = a/b
-* mod/rem = a%b*/
+* rem = a%b*/
 
 fun main(){
     val pt1=Point(1,2)
