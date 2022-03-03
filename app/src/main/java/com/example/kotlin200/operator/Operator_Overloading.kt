@@ -21,6 +21,11 @@ fun main(){
     val pt6=-pt5
     pt6.print()
 
+    val person=Person("jiwon","0628")
+    println(person[0])
+    person[0]="Leejiwon"
+    println(person.name)
+
 }
 
 class Point(var x:Int=0,var y:Int=0){
@@ -44,5 +49,23 @@ class Point(var x:Int=0,var y:Int=0){
     }
     fun print(){
         println("x=$x y=$y")
+    }
+}
+
+//번호 붙은 접근 연산자
+
+class Person(var name:String,var birthday:String){
+    operator fun get(Position:Int):String{
+        return when(Position){
+            0 -> name
+            1 -> birthday
+            else -> "알수없음"
+        }
+    }
+    operator fun set(Position: Int,value:String){
+        when(Position){
+            0->name=value
+            1->birthday=value
+        }
     }
 }
