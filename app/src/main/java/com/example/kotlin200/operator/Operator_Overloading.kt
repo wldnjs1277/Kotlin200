@@ -25,6 +25,7 @@ fun main(){
     println(person[0])
     person[0]="Leejiwon"
     println(person.name)
+    person("invoke")
 
 }
 
@@ -67,5 +68,10 @@ class Person(var name:String,var birthday:String){
             0->name=value
             1->birthday=value
         }
+    }
+    //호출연산자 invoke ()를이용하여 함수를 호출 할 수 있다.
+    operator fun invoke(value2:String){
+        println(value2)
+        println("이름=${name}\n생일=${birthday}")
     }
 }
