@@ -27,6 +27,13 @@ fun main(){
     println(person.name)
     person("invoke")
 
+    // in 연산자
+    //in을 이용하여 어떤값이 객체에 포함되어 있는지 확인한다.
+
+    val a:String="e"
+    println(a in person.name)
+    println('e' !in "kkk")
+    println(person.name.contains(a))
 }
 
 class Point(var x:Int=0,var y:Int=0){
