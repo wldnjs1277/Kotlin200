@@ -15,6 +15,7 @@ open class Test(){
 }
 class Test1():Test(){
     override fun printing() {
+        super.printing()
         println("TEST1")
     }
 }
