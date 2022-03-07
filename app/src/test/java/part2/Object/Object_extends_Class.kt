@@ -10,6 +10,7 @@ fun main(){         //object도 클래스 간에 상속하듯이 object: 뒤에 
             println("object")
         }
     }
+
     custom.print()
 }
 
