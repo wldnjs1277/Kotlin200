@@ -23,6 +23,7 @@ fun main(){
     catch (e:NumberFormatException){
         println("문자열을 숫자로 변경하지 못함")
     }
+
     //finally는 생략가능
     //예외 발생 여부와 상관없이 무조건 실행된다.
     finally {
