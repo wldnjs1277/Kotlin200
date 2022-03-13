@@ -1,5 +1,6 @@
 package com.example.kotlin200
 
+import java.lang.Exception
 import java.lang.NumberFormatException
 
 //예외
@@ -29,4 +30,26 @@ fun main(){
     finally {
         println("프로그램 종료")
     }
+    /////////////////////////////////
+    try {
+        something()
+    }
+    catch (e:Exception){
+        println(e.message)
+    }
 }
+
+
+//예외 던지기
+fun something(){
+    val num1 =10
+    val num2=0
+    div(num1,num2)
+}
+fun div(a:Int,b:Int):Int{
+    if(b==0){
+         println("0으로 나눌수 없다")
+    }
+    return a/b
+}
+
