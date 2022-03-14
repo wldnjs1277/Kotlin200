@@ -39,7 +39,6 @@ fun main(){
     }
 }
 
-
 //예외 던지기
 fun something(){
     val num1 =10
