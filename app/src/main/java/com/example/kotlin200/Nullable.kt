@@ -8,6 +8,7 @@ fun main(){
     num=10
     println(num)
     var abc:Abc?=Abc(1,2)
+    //nullable한 참조변수의 프로퍼티와 맴버함수에 접근하려면 ?.을 반드시 사용해야 한다.
     abc?.print()
     abc=null
 
