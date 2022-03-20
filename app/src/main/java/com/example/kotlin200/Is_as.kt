@@ -16,6 +16,7 @@ fun main(){
     println(person2 is Information)
     println(person2 is Student)
     println(person2 is Professor)
+
 }
 
 class Professor(name:String,age:Int):Information(name, age)
