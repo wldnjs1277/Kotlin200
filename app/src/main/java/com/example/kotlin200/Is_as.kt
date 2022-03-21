@@ -17,6 +17,10 @@ fun main(){
     println(person2 is Student)
     println(person2 is Professor)
 
+
+    var person3:Student?=person as Student
+    //캐스팅에 실패했을 때 예외가 발생하는것을 막고싶으면 as?연산자를 사용해야 한다. as? = 캐스팅에 실패하면 null값을 반환한다.
+    person3=person2 as? Student
 }
 
 class Professor(name:String,age:Int):Information(name, age)
