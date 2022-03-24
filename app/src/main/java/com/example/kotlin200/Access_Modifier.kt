@@ -21,3 +21,12 @@ package com.example.kotlin200
 * package = 여러 class 를 가질 수 있다.
 * class = member , function 을 가질 수 있다.
 * project > module > package > class*/
+
+fun main(){
+    val rectangle=Rectangle(3,4)
+    println(rectangle.area)
+}
+class Rectangle(private val width:Int,private val height:Int){
+    val area:Int
+    get()=width*height
+}
