@@ -10,6 +10,7 @@ class BBB(number:Int):AAA(number){
         println(number)
     }
 }
+
 fun main(){
     val bbb=BBB(27)
     bbb.print()
