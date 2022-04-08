@@ -17,6 +17,7 @@ fun String.isNumber():Boolean{
     return true
 }
 
+
 fun main(){
     val a:String="12345677890"
     val b:String="1000원"
