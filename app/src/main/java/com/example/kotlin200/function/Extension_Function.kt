@@ -22,5 +22,4 @@ fun main(){
     val b:String="1000원"
     println(a.isNumber())
     println(b.isNumber())
-
 }
