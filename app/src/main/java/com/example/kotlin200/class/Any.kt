@@ -1,6 +1,4 @@
-package com.example.kotlin200.Class
-
-import kotlin.Any
+package com.example.kotlin200.`class`
 
 //Any
 

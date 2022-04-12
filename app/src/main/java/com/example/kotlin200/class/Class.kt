@@ -1,4 +1,4 @@
-package com.example.kotlin200.Class
+package com.example.kotlin200.`class`
 
 //Class
 

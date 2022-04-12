@@ -1,4 +1,4 @@
-package com.example.kotlin200.Class
+package com.example.kotlin200.`class`
 
 //프로퍼티와 Getter/Setter
 

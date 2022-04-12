@@ -1,4 +1,4 @@
-package com.example.kotlin200.Class
+package com.example.kotlin200.`class`
 
 //상속
 //상속은 하나의 클래스만 가능하다
