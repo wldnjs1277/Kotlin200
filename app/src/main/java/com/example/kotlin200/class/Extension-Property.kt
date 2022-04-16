@@ -7,6 +7,7 @@ package com.example.kotlin200.`class`
 val String.isLarge:Boolean
 get()=this.length>=10
 
+
 fun main(){
     val a:String = "123456"
     val b:String = "111111111111"
