@@ -11,7 +11,6 @@ object Person{
     }
 }
 
-
 fun main(){
     //식별자 Person으로 객체에 바로 접근 가능
     Person.name="jiwon"
