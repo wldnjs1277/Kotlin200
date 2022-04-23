@@ -7,7 +7,6 @@ inline fun hello(){
     println("hello")
     println("kotlin")
 }
-
 fun main(){
     hello()
     hello()
