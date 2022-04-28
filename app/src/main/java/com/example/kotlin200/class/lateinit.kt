@@ -1,4 +1,5 @@
-package com.example.kotlin200.class
+package com.example.kotlin200.`class`
 
 
 //lateinit
+//
