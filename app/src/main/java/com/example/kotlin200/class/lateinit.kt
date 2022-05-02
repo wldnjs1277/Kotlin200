@@ -28,3 +28,4 @@ class Rect{
         println("넓이"+ area)
     }
 }
+
