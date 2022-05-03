@@ -13,11 +13,19 @@ fun main(){
     //!!을 사용하면 nullable 타입을 not-null로 강제 캐스팅 한다.
     abc!!.print()
     abc=null
-
+    ////////////////
+    val empty:String?=null
+    empty.isNumber()
 
 }
 class Abc(val a:Int=0,val b:Int=1){
     fun print(){
         println(a+b)
+    }
+}
+//nullable리시버
+fun String?.isNumber(){
+    if (this==null){
+        println("문자열이 null")
     }
 }
