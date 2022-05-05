@@ -13,6 +13,8 @@ class Person1 private constructor(){
         private set
     }
 }
+//동반자 객체의 확장함수
+
 fun main(){
     val a=Person1.create()
     val b =Person1.Companion.create() //클래스안에 Companion object 를 정의해놓으면 Companion이라는 실발자가 자동으로 생간다.
