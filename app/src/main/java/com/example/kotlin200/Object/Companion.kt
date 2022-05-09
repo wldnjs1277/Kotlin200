@@ -13,6 +13,7 @@ class Person1 private constructor(){
         private set
     }
 }
+
 //동반자 객체의 확장함수
 class Person2{
     companion object//companion object도 내용이 비어 있으면 중괄호를 생략가능
