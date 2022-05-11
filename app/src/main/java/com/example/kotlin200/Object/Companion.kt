@@ -20,7 +20,7 @@ class Person2{
 }
 fun Person2.Companion.create()=Person2()
 
-//
+//확인
 fun main(){
     val a=Person1.create()
     val b =Person1.Companion.create() //클래스안에 Companion object 를 정의해놓으면 Companion이라는 식발자가 자동으로 생간다.
