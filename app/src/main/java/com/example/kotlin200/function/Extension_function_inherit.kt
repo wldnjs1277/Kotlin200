@@ -7,8 +7,10 @@ class BBB:AAA()
 
 fun AAA.hello()= println("aaa")
 fun BBB.hello()=println("bbb")
+
 fun main(){
 val test:AAA=BBB()
     test.hello()
 }
+
 //확장함수는 팜조변수가 실제로 가리키는 객체 타입을 따르지 않고 참조변수 타입을 그대로 따른다.
