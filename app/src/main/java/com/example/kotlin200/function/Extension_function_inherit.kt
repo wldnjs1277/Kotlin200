@@ -8,6 +8,7 @@ class BBB:AAA()
 fun AAA.hello()= println("aaa")
 fun BBB.hello()=println("bbb")
 
+
 fun main(){
 val test:AAA=BBB()
     test.hello()
