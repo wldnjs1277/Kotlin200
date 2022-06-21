@@ -17,6 +17,7 @@ class Professor(private val classCount:Int):Person(){
 }
 //직원 클래스
 class Employee(private val ):Person()
+//////////////////////////////////////////////
 fun main(){
 
 }
