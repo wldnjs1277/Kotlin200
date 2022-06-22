@@ -30,9 +30,7 @@ abstract class PerSon(){
 }
 //학생클래스
 class Student(private val money: Int):PerSon(){
-    override fun getSalary()
-
+    override fun getSalary()=-money
 }
 fun main(){
-
 }
