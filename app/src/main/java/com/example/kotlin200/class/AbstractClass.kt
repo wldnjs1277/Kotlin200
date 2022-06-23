@@ -29,8 +29,16 @@ abstract class PerSon(){
     abstract fun getSalary():Int
 }
 //학생클래스
-class Student(private val money: Int):PerSon(){
-    override fun getSalary()=-money
+class Student(private val money: Int):PerSon() {
+    override fun getSalary() = -money
+}
+//교수클래스
+class Professor(private val classCount:Int):PerSon(){
+    override fun getSalary()= classCount*120
+}
+//직원클래스
+class Employee(private val money:Int,private val year:Int):PerSon(){
+    override fun getsalary()=money*(1.0+year/10.0).toInt()
 }
 fun main(){
 }
