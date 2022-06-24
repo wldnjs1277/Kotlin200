@@ -41,4 +41,5 @@ class Employee(private val money:Int,private val year:Int):PerSon(){
     override fun getsalary()=money*(1.0+year/10.0).toInt()
 }
 fun main(){
+
 }
