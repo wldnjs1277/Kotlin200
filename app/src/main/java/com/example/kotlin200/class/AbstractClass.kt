@@ -42,6 +42,4 @@ class Employee(private val money:Int,private val year:Int):PerSon(){
 }
 fun main(){
 
-
-
 }
