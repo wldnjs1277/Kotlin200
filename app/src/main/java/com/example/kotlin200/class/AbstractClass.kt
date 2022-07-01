@@ -36,6 +36,7 @@ fun getFinance(vararg persons:PerSon):Int{
 }
 
 fun main(){
-    println(123)
+    val finance = getFinance(Student(100),Professor(1),Employee(1000,2))
+    println("학교재정:$finance 만원")
 }
 
