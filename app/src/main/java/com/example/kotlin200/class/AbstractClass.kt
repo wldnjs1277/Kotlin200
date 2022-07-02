@@ -39,4 +39,3 @@ fun main(){
     val finance = getFinance(Student(100),Professor(1),Employee(1000,2))
     println("학교재정:$finance 만원")
 }
-
