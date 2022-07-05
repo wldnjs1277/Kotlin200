@@ -15,6 +15,7 @@ fun print(anything:Printable){
     anything.print()
 
 }
+
 fun main(){
     print(AA())
 }
