@@ -5,10 +5,12 @@ package com.example.kotlin200
 
 interface Printable{
     fun print()
+    val name:String //인터페이스는 프로퍼티에 값을 저장할수 없지만 getter를 이용하여 가능
+    get() = "Interface name"
 }
 class AA:Printable{
     override fun print(){
-        println("AA")
+        println("AA $name")
     }
 }
 fun print(anything:Printable){
@@ -18,4 +20,5 @@ fun print(anything:Printable){
 
 fun main(){
     print(AA())
+
 }
