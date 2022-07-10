@@ -18,6 +18,7 @@ fun print(anything:Printable){
 
 }
 
+
 fun main(){
     print(AA())
 
