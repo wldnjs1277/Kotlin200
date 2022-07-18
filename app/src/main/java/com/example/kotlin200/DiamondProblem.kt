@@ -19,7 +19,6 @@ class Child:Mother,Father{
     }
 }
 
-
 fun main(){
     Child().follow()
 }
