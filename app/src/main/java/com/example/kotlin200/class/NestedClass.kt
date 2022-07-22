@@ -7,6 +7,8 @@ class Outer{
         fun hello()= println("중첩된 클래스")
     }
 }
+
+//
 fun main(){
     val  instance:Outer.Nested=Outer.Nested()
     instance.hello()
