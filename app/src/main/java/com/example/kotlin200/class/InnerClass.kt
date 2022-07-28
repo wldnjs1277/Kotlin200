@@ -15,6 +15,7 @@ class Outer2(private val value:Int){
         }
     }
 }
+
 fun main(){
     val instance = Outer2(10)
     val innerinstance:Outer2.Inner=instance.Inner(20)
