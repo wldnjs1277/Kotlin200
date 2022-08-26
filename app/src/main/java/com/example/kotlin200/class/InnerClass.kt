@@ -1,7 +1,6 @@
 package com.example.kotlin200.`class`
 
 //내부클래스
-
 class Outer2(private val value:Int){
     fun print(){
         println(this.value)
