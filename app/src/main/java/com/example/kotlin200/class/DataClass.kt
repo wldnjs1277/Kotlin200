@@ -6,7 +6,6 @@ data class Employee1(val name:String,
     val age:Int,val salary:Int)
 
 
-
 fun main(){
     val first=Employee1("1번",11,300)
     val second=Employee1("2번",22,600)
