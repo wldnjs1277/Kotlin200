@@ -2,6 +2,7 @@ package com.example.kotlin200.`class`
 
 //DataClass
 //데이터 클래스는 데이터 보관 목적의 클래스 / 상속받을 수 없다
+
 data class Employee1(val name:String,
     val age:Int,val salary:Int)
 
