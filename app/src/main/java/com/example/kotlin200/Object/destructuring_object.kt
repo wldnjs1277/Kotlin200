@@ -5,7 +5,6 @@ package com.example.kotlin200.Object
 data class Employee(val name:String,val age:Int,val salary:Int)
 
 
-
 fun main(){
 
 }
