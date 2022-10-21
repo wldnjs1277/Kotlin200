@@ -1,16 +1,25 @@
 package com.example.kotlin200.Programmers
 
 fun main(){
-println(solution(1))
+println(solution(167))
 
 }
+//키큰 사람 찾기
+fun solution(height: Int): Int {
+    var answer: Int = 0
+    val array= arrayOf(149, 180, 192, 170)
+    answer= array.count {it>height}
+    return answer
+}
+
 //중복된 숫자 갯수
+/*
 fun solution( n: Int): Int {
     var answer: Int = 0
     val array= arrayOf(1, 1, 2, 3, 4, 5)
     answer= array.count {it==n}
     return answer
-}
+}*/
 
 //편지문제
 /*
