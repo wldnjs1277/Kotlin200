@@ -1,10 +1,17 @@
 package com.example.kotlin200.Programmers
 
 fun main(){
-println(solution(144))
 
-}
+
+
+    }
+
+
+
+
+
 //제곱수 판별하기
+/*
 fun solution(n: Int): Int {
     var answer: Int = 0
     val a=kotlin.math.sqrt(n.toDouble())
@@ -14,7 +21,7 @@ fun solution(n: Int): Int {
         answer=2
     }
     return answer
-}
+}*/
 //자릿수 더하기
 /*
 fun solution(n: Int): Int {
