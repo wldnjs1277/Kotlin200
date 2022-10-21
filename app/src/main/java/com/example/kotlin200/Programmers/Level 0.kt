@@ -1,10 +1,22 @@
 package com.example.kotlin200.Programmers
 
 fun main(){
-println(solution(930211))
+println(solution(144))
 
 }
+//제곱수 판별하기
+fun solution(n: Int): Int {
+    var answer: Int = 0
+    val a=kotlin.math.sqrt(n.toDouble())
+    if(a.toInt()*a.toInt()==n){
+        answer=1
+    }else{
+        answer=2
+    }
+    return answer
+}
 //자릿수 더하기
+/*
 fun solution(n: Int): Int {
     var answer: Int = 0
     var a=n
@@ -13,7 +25,7 @@ fun solution(n: Int): Int {
         a=a/10
    }
     return answer
-}
+}*/
 
 //피자 나눠 먹기
 /*피자는 7조각 한사람당 1조각 먹기
