@@ -1,16 +1,38 @@
 package com.example.kotlin200.Programmers
 
 fun main(){
-println(solution(167))
+println(solution(930211))
 
 }
+//자릿수 더하기
+fun solution(n: Int): Int {
+    var answer: Int = 0
+    var a=n
+    while (a!=0){
+        answer+=(a%10)
+        a=a/10
+   }
+    return answer
+}
+
+//피자 나눠 먹기
+/*피자는 7조각 한사람당 1조각 먹기
+
+fun solution(n: Int): Int {
+    var answer: Int = 0
+    answer=(n-1)/7+1
+    return answer
+}
+*/
+
 //키큰 사람 찾기
+/*
 fun solution(height: Int): Int {
     var answer: Int = 0
     val array= arrayOf(149, 180, 192, 170)
     answer= array.count {it>height}
     return answer
-}
+}*/
 
 //중복된 숫자 갯수
 /*
