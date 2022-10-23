@@ -1,12 +1,13 @@
 package com.example.kotlin200.Programmers
 
 fun main(){
-
+    println(solution(strlist = arrayOf("We", "are", "the", "world!")))
 
 
     }
-
-
+//배열원소의길이
+fun solution(strlist: Array<String>): IntArray{
+}
 
 
 
