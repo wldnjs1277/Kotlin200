@@ -1,13 +1,18 @@
 package com.example.kotlin200.Programmers
 
 fun main(){
-    println(solution(strlist = arrayOf("We", "are", "the", "world!")))
-
-
+    println(solution("BCBdbe","B"))
     }
-//배열원소의길이
-fun solution(strlist: Array<String>): IntArray{
+
+//특정 문자 제거하기
+fun solution(my_string: String, letter: String): String {
+    var answer: String = ""
+    answer= my_string.replace(letter,"")
+
+    return answer
 }
+
+
 
 
 
