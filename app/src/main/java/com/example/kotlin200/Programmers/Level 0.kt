@@ -4,6 +4,7 @@ fun main(){
     println(solution("BCBdbe","B"))
     }
 
+
 //특정 문자 제거하기
 fun solution(my_string: String, letter: String): String {
     var answer: String = ""
