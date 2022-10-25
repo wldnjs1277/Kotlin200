@@ -1,17 +1,26 @@
 package com.example.kotlin200.Programmers
 
 fun main(){
-    println(solution("BCBdbe","B"))
+    println(solution(5500))
     }
 
 
+//아이스 아메리카노
+fun solution(money: Int): IntArray {
+    var answer: IntArray = intArrayOf()
+    val ice:Int = 5500
+
+    return answer
+}
+
+
 //특정 문자 제거하기
-fun solution(my_string: String, letter: String): String {
+/*fun solution(my_string: String, letter: String): String {
     var answer: String = ""
     answer= my_string.replace(letter,"")
 
     return answer
-}
+}*/
 
 
 
