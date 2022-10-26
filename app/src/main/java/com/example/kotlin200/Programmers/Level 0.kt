@@ -10,6 +10,7 @@ fun solution(money: Int): IntArray {
     var answer: IntArray = intArrayOf()
     val ice:Int = 5500
 
+
     return answer
 }
 
