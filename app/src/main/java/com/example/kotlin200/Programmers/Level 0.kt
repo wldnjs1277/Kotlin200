@@ -1,16 +1,25 @@
 package com.example.kotlin200.Programmers
 
 fun main(){
-    println(solution(2,10))
+    println(solution("Bcad"))
     }
 
+//문자열정렬하기2
+fun solution(my_string: String): String {
+    var answer: String = ""
+    var a= my_string.lowercase()
+    answer=a.split("").sorted().joinToString("")
+    return answer
+}
+
 //세균증식 문제
+/*
 fun solution(n: Int, t: Int): Int {
     var answer: Int = 0
     val a=Math.pow(2.0,t.toDouble())*n
     answer=a.toInt()
     return answer
-}
+}*/
 
 //아이스 아메리카노
 //프로그래머스는 정답인데 안드로이드 스튜디오에서는 주소만뜸.....
