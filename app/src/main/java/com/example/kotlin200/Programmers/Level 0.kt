@@ -7,13 +7,7 @@ fun main(){
 
 //아이스 아메리카노
 //프로그래머스는 정답인데 안드로이드 스튜디오에서는 주소만뜸.....
-fun solution(money: Int): IntArray {
-    var answer: IntArray = intArrayOf()
-    val ice:Int = 5500
-
-
-    return answer
-}
+fun solution(money: Int) = intArrayOf(money / 5500, money % 5500)
 //문자열안에 문자열
 /*
 fun solution(str1: String, str2: String): Int {
