@@ -1,19 +1,20 @@
 package com.example.kotlin200.Programmers
 
 fun main(){
-    println(solution("ab6CDE443fgh22iJKlmn1o","6CD"))
+    println(solution())
     }
 
 
 //아이스 아메리카노
-/*fun solution(money: Int): IntArray {
+fun solution(money: Int): IntArray {
     var answer: IntArray = intArrayOf()
     val ice:Int = 5500
 
 
     return answer
-}*/
+}
 //문자열안에 문자열
+/*
 fun solution(str1: String, str2: String): Int {
     var answer: Int = 0
     if(str1.contains(str2)){
@@ -22,7 +23,7 @@ fun solution(str1: String, str2: String): Int {
         answer=2
     }
     return answer
-}
+}*/
 
 
 //특정 문자 제거하기
