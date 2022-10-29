@@ -1,17 +1,26 @@
 package com.example.kotlin200.Programmers
 
 fun main(){
-    println(solution("Bcad"))
+    println(solution(3, numlist = intArrayOf(4,5,6,7,8,9,10,11,12)))
     }
 
+//n의 배수 고르기
+
+fun solution(n: Int, numlist: IntArray): IntArray {
+    var answer: IntArray = intArrayOf()
+    answer=numlist.filter { it%n==0 }.toIntArray()
+    return answer
+}
+
 //문자열정렬하기2
+/*
 fun solution(my_string: String): String {
     var answer: String = ""
     var a= my_string.lowercase()
     answer=a.split("").sorted().joinToString("")
     return answer
 }
-
+*/
 //세균증식 문제
 /*
 fun solution(n: Int, t: Int): Int {
