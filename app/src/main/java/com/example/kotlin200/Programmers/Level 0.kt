@@ -1,15 +1,16 @@
 package com.example.kotlin200.Programmers
 
 fun main(){
-    println(solution("3+4"))
+    println(solution("abc1Addfggg4556b",6))
     }
-
-fun solution(my_string: String): Int {
-    var answer: Int = 0
-
-
+//잘라서 배열로 저장하기
+//코ㅗ틀린에서 chunked를 사용하면 원하는 길이 만큼 문자열을 자를수 있다. chunked의 return 값은 List
+fun solution(my_str: String, n: Int):Array<String> {
+    var answer: Array<String> = arrayOf<String>()
+    answer=my_str.chunked(n).toTypedArray() //toTypedArray()로 리스트를 배열로 변환하였다.
     return answer
 }
+
 
 //n의 배수 고르기
 /*
