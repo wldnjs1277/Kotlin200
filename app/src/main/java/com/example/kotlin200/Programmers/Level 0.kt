@@ -1,13 +1,23 @@
 package com.example.kotlin200.Programmers
 
-fun main(){
-    println(solution("hello",1,2))
+fun main() {
+    println(solution("3 + 4"))
+
+}
+//문자열 계산하기
+//연산자는 +,- 만 존재
+fun solution(my_string: String): Int {
+    var answer: Int = 0
+    val a = my_string.split(" ")
+    answer = a[0].toInt()
+    for (i in 1..a.size - 1) {
+        if (a[i] == "+") {
+            answer += a[i+1].toInt()
+        }
+        if(a[i] == "-"){
+            answer -= a[i+1].toInt()
+        }
     }
-
-fun solution(my_string: String, num1: Int, num2: Int): String {
-    var answer: String = ""
-
-
     return answer
 }
 
