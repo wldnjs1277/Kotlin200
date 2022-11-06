@@ -1,11 +1,18 @@
 package com.example.kotlin200.Programmers
 
 fun main() {
-    println(solution("3 + 4"))
+    println(solution(numbers =intArrayOf(1,2,3,4,5),1,3))
 
+}
+//배열 자르기
+fun solution(numbers: IntArray, num1: Int, num2: Int): IntArray {
+    var answer: IntArray = intArrayOf()
+    answer=numbers.sliceArray(num1..num2)
+    return answer
 }
 //문자열 계산하기
 //연산자는 +,- 만 존재
+/*
 fun solution(my_string: String): Int {
     var answer: Int = 0
     val a = my_string.split(" ")
@@ -20,7 +27,7 @@ fun solution(my_string: String): Int {
     }
     return answer
 }
-
+*/
 //잘라서 배열로 저장하기
 //코틀린에서 chunked를 사용하면 원하는 길이 만큼 문자열을 자를수 있다. chunked의 return 값은 List
 /*
