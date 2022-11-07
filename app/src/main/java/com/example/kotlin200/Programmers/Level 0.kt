@@ -1,15 +1,19 @@
 package com.example.kotlin200.Programmers
 
 fun main() {
-    println(solution(numbers =intArrayOf(1,2,3,4,5),1,3))
+    println(solution())
 
 }
+
+
 //배열 자르기
+/*
 fun solution(numbers: IntArray, num1: Int, num2: Int): IntArray {
     var answer: IntArray = intArrayOf()
     answer=numbers.sliceArray(num1..num2)
     return answer
-}
+}*/
+
 //문자열 계산하기
 //연산자는 +,- 만 존재
 /*
