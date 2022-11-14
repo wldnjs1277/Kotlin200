@@ -3,7 +3,6 @@ package com.example.kotlin200.Programmers
 fun main() {
     println(solution())
 
-
 }
 
 
