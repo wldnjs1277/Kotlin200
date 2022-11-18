@@ -5,6 +5,7 @@ fun main() {
 
 }
 
+
 //배열 자르기
 /*
 fun solution(numbers: IntArray, num1: Int, num2: Int): IntArray {
