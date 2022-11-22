@@ -1,10 +1,14 @@
 package com.example.kotlin200.Programmers
 
 fun main() {
-    println(solution())
+    println(solution(array = intArrayOf(7,77,17)))
 
 }
+fun solution(array: IntArray): Int {
+    var answer: Int = 0
 
+    return answer
+}
 //배열 자르기
 /*
 fun solution(numbers: IntArray, num1: Int, num2: Int): IntArray {
