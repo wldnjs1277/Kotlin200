@@ -4,6 +4,7 @@ fun main() {
     println(solution(array = intArrayOf(7,77,17)))
 
 }
+//7의 개수
 fun solution(array: IntArray): Int {
     var answer: Int = 0
 
